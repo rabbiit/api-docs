@@ -1,4 +1,4 @@
-# Rabbiit API Documentation V1
+# Rabbiit API Documentation v1
 
 * [Introduction](#introduction)
 * [Authentication](#authentication)
