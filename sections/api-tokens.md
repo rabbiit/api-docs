@@ -2,7 +2,7 @@
 
 * [Security](#security)
 * [Generate API token](#generate)
-* [Distroy a API token](#distroy)
+* [Destroy a API token](#destroy)
 
 Authentication to the API is performed via HTTP Bearer Auth.   
 On every request you must send on HTTP header `Authorization: Bearer <api_token>`.   
@@ -21,7 +21,7 @@ Each API token is valid only to [User Agent](https://en.wikipedia.org/wiki/User_
 Call made by another User Agent will return `401 Unauthorized` status code 
 and will distroy this API token and make permanently invalid for news requests.
 
-API Tokens without access for more than 30 days are automatically distroyed.  
+API Tokens without access for more than 30 days are automatically destroyed.  
 
 <a name="generate"></a>
 ## Generate API token
@@ -62,8 +62,8 @@ curl https://app.rabbiit.com/api/v1/projects
 -H "Authorization: Bearer <api_token>"  
 ```
 
-<a name="distroy"></a>
-## Distroy a API token
+<a name="destroy"></a>
+## Destroy a API token
 
 **GET** `/api/v1/auth/revoke`
 
