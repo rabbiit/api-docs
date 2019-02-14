@@ -27,21 +27,7 @@ https://app.rabbiit.com/api/v1
 <a name="authentication"></a>
 ## Authentication
 
-Rabbiit API use [API Tokens](sections/api-tokens.md) to authenticate requests. 
-
-API tokens are generated using email and password of a user.
-API tokens carry all privileges of a user 
-and grant access to their account, 
-so be sure to keep them secure and secret! 
-Do not share your API tokens in publicly accessible areas such as GitHub, client-side code, and so forth.
-
-Each API token is valid only to [User Agent](https://en.wikipedia.org/wiki/User_agent) that has generated. 
-Call made by another User Agent will return `401 Unauthorized` status code 
-and will make this API token permanently invalid.  
-
-Authentication to the API is performed via HTTP Bearer Auth. 
-On every request use HTTP header named `Authorization` and `Bearer <api_token>` value. 
-You do not need to provide an email or password.
+Rabbiit API use API Tokens to authenticate requests. 
 
 Read the [API Tokens guide](sections/api-tokens.md) for see how generate and manage your API tokens.
 
