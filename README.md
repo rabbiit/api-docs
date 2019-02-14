@@ -29,7 +29,7 @@ https://app.rabbiit.com/api/v1
 
 Rabbiit API use API Tokens to authenticate requests. 
 
-Read the [API Tokens guide](sections/api-tokens.md) for see how generate and manage your API tokens.
+Read the [API Tokens guide](sections/api-tokens.md) to see how generate and manage your API tokens.
 
 <a name="make-request"></a>
 ## Making a request
