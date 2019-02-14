@@ -1,10 +1,9 @@
 # Rabbiit API Documentation V1
 
 * [Introduction](#introduction)
-* [Making a request](#make-request)
-* [HTTP status codes](#http-status-codes)
 * [Authentication](#authentication)
-* [Response codes and error handling](#response-codes)
+* [Making a request](#make-request)
+* [Errors](#errors)
 * [API Endpoints](#api-endpoints)
 
 <a name="introduction"></a>
@@ -67,8 +66,8 @@ curl https://app.rabbiit.com/api/v1/customers/121
 -d name="ACME INC."  
 ```
 
-<a name="response-codes"></a>
-## Response codes and error handling
+<a name="errors"></a>
+## Errors
 
 Rabbiit API use [HTTP Status codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes) to indicate the successful or failure request.
  
@@ -83,6 +82,6 @@ The classs of `5xx` status code indicates a failured on Rabbiit's server.
 * [Projects](sections/projects.md)
 
 ## Help us make it better
-. 
+
 If you have any request or if you found a bug, please use GitHub issues. 
 Fork these docs and send a pull request with improvements.
